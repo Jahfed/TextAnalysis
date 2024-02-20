@@ -12,7 +12,8 @@ from functools import partial
 from textacy import extract
 
 # The sources to use as an example
-file = 'bidenspeech.txt'
+basepath = '../text_data/'
+file = basepath + 'bidenspeech.txt'
 sentence = 'this! is: www.jahfed.com #@'
 
 ########STATISTICAL ANALYSIS OF TEXT#############

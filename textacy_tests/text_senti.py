@@ -1,6 +1,9 @@
 from textblob import TextBlob
 
-with open('mytext.txt','r') as f:
+basepath = '../text_data/'
+file = basepath + 'bidenspeech.txt'
+
+with open(file,'r') as f:
     text = f.read()
 
 blob = TextBlob(text)
