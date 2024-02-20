@@ -48,5 +48,4 @@ print(clean_text)
 
 
 
-
 ###########EXTRACT INFO###########
